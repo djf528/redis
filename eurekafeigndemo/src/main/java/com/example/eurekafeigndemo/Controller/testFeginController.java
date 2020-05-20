@@ -12,6 +12,9 @@ public class testFeginController {
     testFegin testFegin1;
     @GetMapping(value="/hi")
     public String sayHi(String name){
+
+
+        //
         return testFegin1.sayHiFromClientOne(name);
     }
 
